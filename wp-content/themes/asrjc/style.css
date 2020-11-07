@@ -1,0 +1,274 @@
+/**
+Theme Name: MOE ASRJC 2018
+Author: Websparks
+Author URI: http://websparks.sg/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: moe-asrjc-2018
+Template: astra
+*/
+
+
+body,button,input,select,textarea, .fl-rich-text{
+	font-family: 'Montserrat';
+	text-align: justify;
+}
+
+a.fl-button {
+	font-family: 'Montserrat';
+	font-weight: 600 !important;
+	font-size: 15px;
+}
+
+.fl-heading {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	letter-spacing: 0.35px;
+}
+
+.fl-heading > span {
+	position: relative;
+}
+
+.main-header-menu ul a {
+	padding: .7em 1em;
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    h1.fl-heading > span::before {
+        left: 20px;
+    }
+}
+
+.main-header-bar {
+	padding: 2px 0px;
+}
+
+.main-header-bar-wrap {
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+@media only screen and (max-width: 768px) {
+	.site-content {
+		padding-top: 110px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.site-content {
+		padding-top: 130px;
+	}
+}
+
+/*******************************START MAIN MENU ****************************/
+
+@media only screen and (min-width: 768px) {
+
+		#primary-menu > li {
+			font-family: 'Montserrat';
+		}
+
+		#primary-menu ul.sub-menu {
+		  border: 0px solid transparent;
+		  background-color: #004454;
+		  /*background-color: rgb(0, 68, 84, 0.9);*/
+		  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+			filter: alpha(opacity=90);
+			-moz-opacity:0.9;
+			-khtml-opacity: 0.9;
+			opacity: 0.9;
+		  font-family: 'Montserrat';
+		}
+
+		#primary-menu ul.sub-menu  li  a {
+		  text-align: center;
+		  color: white;
+		  border: 0px solid transparent;
+		}
+
+		#primary-menu ul.sub-menu > li:hover {
+		  background-color: #f95602;
+		}
+
+		.main-header-menu > .current-menu-ancestor > a, .menu-header-menu li:hover > a {
+			color: #3a3a3a !important;
+		}
+
+		.main-header-menu > li.focus>ul, .main-header-menu > li:hover>ul {
+		  left: -25%;
+		  width: 150%;
+		}
+
+		.main-header-bar .main-header-bar-navigation .menu-item-has-children>a:after, .main-header-bar .main-header-bar-navigation .page_item_has_children>a:after {
+		  content: "";
+		  margin-left: 0px;
+		}
+
+		.main-header-menu li.menu-item.focus::before, .main-header-menu li.menu-item:hover::before, .main-header-menu > .current-menu-ancestor > a::before{
+		  content: "";
+		  position: absolute;
+		  left: 25%;
+		  bottom: 0;
+		  height: 1px;
+		  width: 50%;
+		  border-bottom: 5px solid #f95602;
+		}
+
+		.submenu-with-border ul ul {
+		    top: 0px;
+		}
+
+}
+
+.fl-tabs-label {
+	background-color: #004454;
+	color: white;
+	font-weight: 600;
+	border: 0px solid transparent;
+	margin: 0px 2px;
+}
+
+.fl-tabs-vertical .fl-tabs-label {
+	margin-bottom: 2px;
+}
+
+.fl-tabs-label.fl-tab-active {
+	background-color: #f95602;
+	left: 0px;
+	border-width: 0px !important;
+	top: 0px !important;
+	padding: 11px 18px 13px !important;
+}
+
+/****************************** END MAIN MENU *********************/
+
+.top{
+	background-color:#004b66;
+	font-size: 14px !important;
+}
+
+.top a{
+	color:white;
+	padding-left:20px;
+}
+
+.toppbar{
+	margin-right:1em;
+	float:right;
+}
+
+.toppbar > a {
+	font-size: 12px;
+}
+
+.fa.fa-instagram{
+	font-size:15px;
+}
+
+.fa.fa-facebook-official{
+	font-size:15px;
+}
+
+.fl-photo-caption.fl-photo-caption-below {
+text-overflow: initial;
+white-space: normal;
+}
+
+.wp-caption-text{
+	font-size:13px;
+}
+
+.fl-accordion-button{
+	font-weight: bold;
+    background-color: lightgrey;
+}
+
+tr th{
+	background-color: lightgrey;
+}
+
+.home-events-date {
+	background-color: #f95602;
+}
+
+.content-submenu ul li{
+	background-color: #004454;
+}
+
+.content-submenu ul li {
+	padding: 5px 10px;
+}
+
+.content-submenu ul li a {
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.content-submenu ul li.current_page_item, .content-submenu ul li:hover {
+	background-color: #f95602;
+}
+
+.fl-tabs-panel-content {
+	padding-top: 0px;
+}
+
+
+
+/**************************** FOOTER CSS *************************************/
+
+.footer-adv-widget-3{
+	padding: 15px 0px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.footer-adv-widget-2, .footer-adv-widget-3 {
+		text-align: center;
+	}
+
+	.footer-adv-widget-3 {
+		padding-top: 0px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.footer-adv-widget-2 {
+		padding: 10px 0px;
+	}
+}
+
+.footer-adv-overlay{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #004b66;
+}
+
+.ast-footer-overlay{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #004b66;
+}
+
+.ast-small-footer-section-2{
+	margin-top:0px !important;
+}
+
+div.footer-adv-widget-2 > div {
+	text-align: center;
+}
+
+div.footer-adv-widget-2 img {
+	max-width: 190px !important;
+}
+
+.ast-small-footer {
+	border: 0px solid transparent;
+}
